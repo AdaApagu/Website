@@ -1,0 +1,38 @@
+ body{
+    text-align: center;
+    background-color: red;
+ }
+ img{
+    width: 200px;
+    height: 300px;
+    
+ }
+ a:hover{
+    transform: scale(0.98);
+ }
+ .space{
+     display: inline;
+     justify-content: space-between;
+
+ }
+ footer{
+   border: 2px solid rgb(12, 6, 10);
+   background-color:black;
+   border-radius: 5%;
+   height: 100px;
+   width: 1000px;
+   margin-left: 15%;
+   text-align: center;
+   display: flex;
+   flex-direction: row;
+   justify-content: space-between;
+   justify-content: space-around;
+   padding-top: 30px;
+   font-weight: bold;
+   font-size: x-large;
+   margin-top: 50px;
+   margin-bottom: 90px;
+}
+.footer a:hover{
+   border-bottom:2px white solid;
+ }
